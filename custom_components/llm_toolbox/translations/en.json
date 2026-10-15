@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "LLM Toolbox",
+        "description": "Adds extra tools to the Assist LLM API: climate modes, select options, sensor history, weather forecasts, notifications, calendar event creation and media sources. Every conversation agent that uses the Assist API can call them. Tools only show up for entities exposed to Assist. Pick the tools to enable; you can change them later with Configure.",
+        "data": {
+          "tools": "Enabled tools"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "LLM Toolbox is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "LLM Toolbox",
+        "description": "Tools that LLM Toolbox adds to the Assist LLM API. Each one is only offered when matching entities are exposed to Assist.",
+        "data": {
+          "tools": "Enabled tools"
+        }
+      }
+    }
+  },
+  "selector": {
+    "tools": {
+      "options": {
+        "climate_modes": "Climate modes (hvac / fan / preset)",
+        "select_option": "Change select options (vacuum mop mode, appliance programs)",
+        "statistics": "Energy and sensor history (recorder statistics)",
+        "notify": "Send notifications (exposed notify entities)",
+        "calendar_create": "Create calendar events",
+        "media_source": "Play on a specific speaker (media player source)",
+        "weather_forecast": "Weather forecast"
+      }
+    }
+  }
+}

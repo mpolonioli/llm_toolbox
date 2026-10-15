@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "LLM Toolbox",
+        "description": "Aggiunge strumenti all'API LLM Assist: modalità clima, opzioni dei select, storico dei sensori, previsioni meteo, notifiche, creazione di eventi in calendario e sorgenti media. Tutti gli agenti di conversazione che usano l'API Assist possono usarli. Gli strumenti compaiono solo per le entità esposte ad Assist. Scegli gli strumenti da abilitare; puoi cambiarli in seguito con Configura.",
+        "data": {
+          "tools": "Strumenti abilitati"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "LLM Toolbox è già configurato."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "LLM Toolbox",
+        "description": "Strumenti che LLM Toolbox aggiunge all'API LLM Assist. Ognuno è offerto solo se ci sono entità adatte esposte ad Assist.",
+        "data": {
+          "tools": "Strumenti abilitati"
+        }
+      }
+    }
+  },
+  "selector": {
+    "tools": {
+      "options": {
+        "climate_modes": "Modalità clima (hvac / ventola / preset)",
+        "select_option": "Cambio opzioni (modalità mocio del robot, programmi elettrodomestici)",
+        "statistics": "Storico energia e sensori (statistiche del recorder)",
+        "notify": "Invio notifiche (entità notify esposte)",
+        "calendar_create": "Creazione eventi in calendario",
+        "media_source": "Riproduzione su uno speaker specifico (sorgente media)",
+        "weather_forecast": "Previsioni meteo"
+      }
+    }
+  }
+}

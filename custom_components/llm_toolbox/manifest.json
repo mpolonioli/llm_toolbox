@@ -1,0 +1,15 @@
+{
+  "domain": "llm_toolbox",
+  "name": "LLM Toolbox",
+  "after_dependencies": ["calendar", "media_player", "notify", "recorder", "weather"],
+  "codeowners": ["@mpolonioli"],
+  "config_flow": true,
+  "dependencies": ["llm"],
+  "documentation": "https://github.com/mpolonioli/llm_toolbox",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/mpolonioli/llm_toolbox/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}
