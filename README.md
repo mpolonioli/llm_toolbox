@@ -44,7 +44,8 @@ and you can change the selection at any time with **Configure** on the integrati
 ## Installation
 
 1. HACS → Integrations → ⋮ → Custom repositories → add this repository (category *Integration*), then
-   install **LLM Toolbox**. Or copy `custom_components/llm_toolbox` into `config/custom_components/`.
+   install **LLM Toolbox**. Or download `llm_toolbox.zip` from the latest release and unzip it into
+   `config/custom_components/`.
 2. Restart Home Assistant.
 3. Settings → Devices & services → Add integration → **LLM Toolbox**, then pick the tools to enable.
 4. Make sure your conversation agent is allowed to control Home Assistant with the **Assist** API.
